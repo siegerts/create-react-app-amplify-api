@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "reactappapicb10fa8f",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/items"
+        }
+    ],
+    "resourceName": "apidf68e9a6",
+    "apiName": "apidf68e9a6",
+    "functionArns": [
+        {
+            "lambdaFunction": "reactappapicb10fa8f"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-reactappapi-dev-141702-authRole",
+        "unAuthRoleName": "amplify-reactappapi-dev-141702-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "reactappapicb10fa8f",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
